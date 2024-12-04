@@ -46,7 +46,7 @@
     // Geometry:
     defaultCols: 240,
     defaultRows: 150,
-    defaultCellSize: 4,
+    defaultCellSize: 3,
 
     // URLs:
     baseApiUrl : getBaseApiUrl(),
