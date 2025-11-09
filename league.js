@@ -88,9 +88,9 @@
       let seasons = [];
       let defaultSeason;
 
-      if (mode < 10) { // Pre-season
+      if (mode < 10 || mode >= 40) { // Pre-season or post-Cup
         if (currentSeason > 1) {
-          for (let i = 1; i < currentSeason - 1; i++) {
+          for (let i = 1; i < currentSeason; i++) {
             seasons.push(i);
           }
           defaultSeason = currentSeason - 1;
